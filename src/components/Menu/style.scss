@@ -1,0 +1,26 @@
+$border-color: #CFCFE4;
+$active-background-color: #5FBF77;
+$active-text-color: #FFF;
+
+.menu {
+    height: min-content;
+    min-width: 264px;
+    padding: 12px;
+    margin-right: 24px;
+    border: 1px solid $border-color;
+    border-radius: 18px;
+}
+
+.menuElement {
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.menuElement:hover {
+    cursor: pointer;
+}
+
+.activeMenuElement {
+    background-color: $active-background-color;
+    color: $active-text-color;
+}

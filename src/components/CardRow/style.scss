@@ -1,0 +1,7 @@
+.cardRow {
+    display: flex;
+}
+
+.cardRow:not(:first-child) {
+    margin-top: 18px;
+}

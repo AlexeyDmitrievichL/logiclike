@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'NunitoFont';
+  src: url('./fonts/Nunito-ExtraBold.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'NunitoFont', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
